@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photogram</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" media="all" href="/assets/application-bdc41703cdd40ee0bb23ec84834f19357253bf0389f1a3bbad78ccaba6b42006.css" />
+    <script src="/assets/application-dab16668215e066fe8dd576214484bfdb43dbbf0f69226f21fb7036519fb1499.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Add a new photo</h1>
+
+<form action="/create_photo">
+  <div>
+    <label for="image_url">
+      Image URL
+    </label>
+
+    <input id="image_url" type="text" name="image_url">
+  </div>
+
+  <div>
+    <label for="caption">
+      Caption
+    </label>
+
+    <input id="caption" type="text" name="caption">
+  </div>
+
+  <button>
+    Create Photo
+  </button>
+</form>
+
+    </div>
+  </body>
+</html>
